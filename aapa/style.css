@@ -1,0 +1,78 @@
+:root {
+    --gold: #CDA434;
+    --light-gold: #e9d89b;
+    --white: #ffffff;
+    --gray-light: #f8f9fa;
+    --dark: #212529;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: var(--white);
+    color: var(--dark);
+  }
+  
+  h1, h2, h3, h4, h5 {
+    color: var(--gold);
+  }
+  
+  a {
+    color: var(--gold);
+    text-decoration: none;
+  }
+  a:hover {
+    color: var(--dark);
+  }
+  
+  .navbar {
+    background-color: var(--white);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  .navbar-brand {
+    color: var(--gold);
+    font-weight: bold;
+  }
+  .navbar-nav .nav-link {
+    color: var(--dark);
+  }
+  .navbar-nav .nav-link:hover {
+    color: var(--gold);
+  }
+  
+  .hero {
+    background-image: url('img/laundry3.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    padding: 100px 0;
+  }
+  .hero .btn {
+    background-color: var(--gold);
+    color: white;
+    border: none;
+  }
+  .hero .btn:hover {
+    background-color: #b9992f;
+  }
+  
+  section {
+    padding: 60px 0;
+  }
+  
+  .card {
+    border: 1px solid var(--light-gold);
+  }
+  .card-title {
+    color: var(--gold);
+  }
+  .card:hover {
+    box-shadow: 0 0 15px rgba(205, 164, 52, 0.2);
+  }
+  
+  footer {
+    background-color: var(--gold);
+    color: white;
+  }
+  
